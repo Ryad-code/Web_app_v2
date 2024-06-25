@@ -1,7 +1,7 @@
-import React from "react";
+import SubContainer from "./SubContainer";
 
 function MainContainer() {
-  return <div>bonjour</div>;
+  return <SubContainer />;
 }
 
 export default MainContainer;

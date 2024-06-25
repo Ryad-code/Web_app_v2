@@ -1,8 +1,4 @@
 import App from "./App.tsx";
-import "./index.css";
-import MainContainer from "./components/MainContainer.tsx";
-
-import * as React from "react";
 import ReactDOM from "react-dom/client";
 import {
   createRoutesFromElements,
@@ -12,17 +8,19 @@ import {
   Outlet,
   Link,
 } from "react-router-dom";
+import NavBar from "./components/NavBar.tsx";
 
 const Root = () => {
   return (
     <div>
-      <Link to={"/HomePage"} className="nav-link">
+      <NavBar />
+      <App />
+    </div>
+    /*   <Link to={"/HomePage"} className="nav-link">
         {" "}
         Home <App />
       </Link>
-      <MainContainer />
-      <Outlet />
-    </div>
+      <Outlet /> */
   );
 };
 
