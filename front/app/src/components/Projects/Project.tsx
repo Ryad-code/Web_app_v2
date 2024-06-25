@@ -6,10 +6,20 @@ import {
   ProjectTitleStyle,
 } from "../../styles/Container.style";
 
-function Project({ Title, Text }: { Title: string; Text: string }) {
+
+
+function Project({
+  Title,
+  Text,
+  Img,
+}: {
+  Title: string;
+  Text: string;
+  Img: string;
+}) {
   return (
     <ProjectStyle>
-      <ProjectImageStyle>Photo</ProjectImageStyle>
+      <ProjectImageStyle />
       <ProjectTitleStyle>{Title}</ProjectTitleStyle>
       <ProjectInfoStyle>{Text}</ProjectInfoStyle>
       <ProjectButtonStyle>

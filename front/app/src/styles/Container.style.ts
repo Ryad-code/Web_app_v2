@@ -3,6 +3,8 @@ import "../fonts/index.css";
 import "../fonts/roboto/Roboto-Regular.ttf";
 import "../fonts/roboto/Roboto-BlackItalic.ttf";
 
+import Img from "../../../public/images/fract-ol_img.png";
+
 export const MainContainerStyle = styled.div`
   width: 100%;
   height: 100vh;
@@ -23,7 +25,6 @@ export const SubContainerStyle = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  //background-color: red;
 `;
 
 export const ProjectRowStyle = styled.div`
@@ -32,7 +33,6 @@ export const ProjectRowStyle = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  //background-color: grey;
   margin: 2%;
 `;
 
@@ -53,7 +53,9 @@ export const ProjectStyle = styled.div`
 export const ProjectImageStyle = styled.div`
   width: 100%;
   height: 40%;
-  border: solid red;
+  background-image: url("../../../public/images/fract-ol_img.png");
+  background-position: center;
+  background-size: cover;
 `;
 
 export const ProjectTitleStyle = styled.div`
@@ -61,8 +63,8 @@ export const ProjectTitleStyle = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: solid white;
   font-size: 150%;
-  border-bottom: solid blue;
   margin: 2%;
 `;
 
@@ -73,7 +75,6 @@ export const ProjectInfoStyle = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 80%;
-  border: solid black;
 `;
 
 export const ProjectButtonStyle = styled.div`
@@ -82,5 +83,4 @@ export const ProjectButtonStyle = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid pink;
 `;
