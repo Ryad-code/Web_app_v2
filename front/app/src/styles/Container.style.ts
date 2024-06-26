@@ -3,7 +3,15 @@ import "../fonts/index.css";
 import "../fonts/roboto/Roboto-Regular.ttf";
 import "../fonts/roboto/Roboto-BlackItalic.ttf";
 
-//import Img from "../../../public/images/fract-ol_img.png";
+import Img from "../../../public/images/bg1.jpg";
+
+export const MainStyle = styled.div`
+  width: 100%;
+  background-image: url("../../../public/images/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+`;
 
 export const MainContainerStyle = styled.div`
   width: 100%;
@@ -12,7 +20,6 @@ export const MainContainerStyle = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: pink;
   color: white;
   font-family: "roboto";
   font-weight: bold;

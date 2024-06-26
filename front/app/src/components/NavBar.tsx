@@ -13,9 +13,9 @@ function NavBarItem() {
         <ItemStyle>Ryad Laouedj</ItemStyle>
       </NavBarItemStyle>
       <NavBarItemStyle1>
-        <ItemStyle>m1</ItemStyle>
-        <ItemStyle>m2</ItemStyle>
-        <ItemStyle>m3</ItemStyle>
+        <ItemStyle>About</ItemStyle>
+        <ItemStyle>Project</ItemStyle>
+        <ItemStyle>Technologies</ItemStyle>
       </NavBarItemStyle1>
     </>
   );

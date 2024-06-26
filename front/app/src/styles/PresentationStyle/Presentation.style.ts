@@ -3,9 +3,9 @@ import "../../fonts/index.css";
 import "../../fonts/roboto/Roboto-Regular.ttf";
 import "../../fonts/roboto/Roboto-BlackItalic.ttf";
 
-//import Img from "../../../public/images/fract-ol_img.png";
+import "../../../public/images/profil_pic.png";
 
-export const SubHomeContainerStyle = styled.div`
+export const SubPresentationStyle = styled.div`
   width: 70%;
   height: 100vh;
   display: flex;
@@ -16,14 +16,13 @@ export const SubHomeContainerStyle = styled.div`
   font-weight: bold;
 `;
 
-export const HomeTitleStyle = styled.div`
+export const PresentationTitleStyle = styled.div`
   font-family: "roboto";
   font-weight: bolder;
   font-size: 2vw;
-  margin-top: 6%;
 `;
 
-export const HomeSubTitleStyle = styled.div`
+export const PresentationSubTitleStyle = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -33,22 +32,26 @@ export const HomeSubTitleStyle = styled.div`
   font-size: 1.7vw;
 `;
 
-export const HomeTextStyle = styled.div`
+export const TextContainerStyle = styled.div`
+  width: 100%;
+  min-height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
+
+export const PresentationTextStyle = styled.div`
   width: 60%;
   font-family: "roboto";
   font-weight: lighter;
   font-size: 1.4vw;
 `;
 
-export const ButtonStyle = styled.button`
-  background: transparent;
-  border-radius: 3px;
-  border: 2px solid white;
-  color: white;
-  margin: 2%;
-  padding: 2%;
-  font-size: 1vw;
-  &:hover {
-    background-color: #af5a76;
-  }
+export const PresentationImgStyle = styled.div`
+  width: 40%;
+  height: 100%;
+  background-image: url("../../../public/images/profil_pic.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 `;
