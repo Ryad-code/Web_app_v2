@@ -1,13 +1,17 @@
-import MainContainer from "./components/MainContainer";
+import ProjectContainer from "./components/ProjectPage/ProjectContainer";
+import HomeContainer from "./components/HomePage/HomeContainer";
 import { MainContainerStyle } from "./styles/Container.style";
 
 function App() {
   return (
-    <div>
+    <>
       <MainContainerStyle>
-        <MainContainer />
+        <HomeContainer />
       </MainContainerStyle>
-    </div>
+      <MainContainerStyle>
+        <ProjectContainer />
+      </MainContainerStyle>
+    </>
   );
 }
 

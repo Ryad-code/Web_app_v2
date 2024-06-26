@@ -4,9 +4,7 @@ import {
   ProjectInfoStyle,
   ProjectStyle,
   ProjectTitleStyle,
-} from "../../styles/Container.style";
-
-
+} from "../../styles/ProjectStyle/Project.style";
 
 function Project({
   Title,

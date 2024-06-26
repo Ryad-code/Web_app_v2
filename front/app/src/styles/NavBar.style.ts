@@ -7,7 +7,7 @@ export const NavBarStyle = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  background-color: palevioletred;
   color: white;
   font-family: "roboto";
   font-weight: bold;

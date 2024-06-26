@@ -1,4 +1,4 @@
-import { ProjectRowStyle } from "../../styles/Container.style";
+import { ProjectRowStyle } from "../../styles/ProjectStyle/Project.style";
 import Project from "./Project";
 
 let img1: string = "trans_img.png";
