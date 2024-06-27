@@ -12,8 +12,6 @@ export const SubPresentationStyle = styled.div`
   flex-direction: column;
   align-items: left;
   justify-content: top;
-  font-family: "roboto";
-  font-weight: bold;
 `;
 
 export const PresentationTitleStyle = styled.div`

@@ -8,8 +8,8 @@ function SubProjectContainer() {
       <HomeSubTitleStyle>
         <h2>Projects</h2>
       </HomeSubTitleStyle>
-      <ProjectRow />
-      <ProjectRow />
+      <ProjectRow id={0} />
+      <ProjectRow id={2} />
     </SubContainerStyle>
   );
 }

@@ -19,19 +19,22 @@ export const ProjectStyle = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: top;
-  background-color: palevioletred;
+  background-color: transparent;
   &:hover {
     background-color: #af5a76;
   }
   margin: 4%;
+  border-radius: 4%;
+  border: 4mm ridge white;
 `;
 
 export const ProjectImageStyle = styled.div`
   width: 100%;
-  height: 40%;
+  height: 50%;
   background-image: url("../../../public/images/fract-ol_img.png");
   background-position: center;
   background-size: cover;
+  //background-repeat: no-repeat;
 `;
 
 export const ProjectTitleStyle = styled.div`
@@ -45,12 +48,12 @@ export const ProjectTitleStyle = styled.div`
 `;
 
 export const ProjectInfoStyle = styled.div`
-  width: 100%;
+  width: 95%;
   height: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1vw;
+  font-size: 0.9vw;
 `;
 
 export const ProjectButtonStyle = styled.div`

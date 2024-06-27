@@ -3,11 +3,11 @@ import "../fonts/index.css";
 import "../fonts/roboto/Roboto-Regular.ttf";
 import "../fonts/roboto/Roboto-BlackItalic.ttf";
 
-import Img from "../../../public/images/bg1.jpg";
+import Img from "../../../public/images/bg2.jpg";
 
 export const MainStyle = styled.div`
   width: 100%;
-  background-image: url("../../../public/images/bg1.jpg");
+  background-image: url("../../../public/images/bg2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

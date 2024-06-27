@@ -1,16 +1,20 @@
 import styled from "styled-components";
 
 export const NavBarStyle = styled.div`
+  position: absolute;
   width: 100%;
   height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: palevioletred;
+  background-color: transparent;
   color: white;
   font-family: "roboto";
   font-weight: bold;
+  &:hover {
+    background-color: #af5a76;
+  }
 `;
 
 export const SubNavBarStyle = styled.div`
