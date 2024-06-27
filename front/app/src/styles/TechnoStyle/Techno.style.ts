@@ -37,6 +37,6 @@ export const BarStyle = styled.div`
 export const SubBarStyle = styled.div`
   width: 75%;
   height: 100%;
-  background-color: blue;
+  background: linear-gradient(0.25turn, purple, red);
   border-radius: 30px;
 `;

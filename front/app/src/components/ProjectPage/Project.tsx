@@ -5,6 +5,7 @@ import {
   ProjectStyle,
   ProjectTitleStyle,
 } from "../../styles/ProjectStyle/Project.style";
+import { ButtonStyle } from "../../styles/HomeStyle/Home.style";
 
 function Project({
   Title,
@@ -21,7 +22,7 @@ function Project({
       <ProjectTitleStyle>{Title}</ProjectTitleStyle>
       <ProjectInfoStyle>{Text}</ProjectInfoStyle>
       <ProjectButtonStyle>
-        <button>See more</button>
+        <ButtonStyle>See more</ButtonStyle>
       </ProjectButtonStyle>
     </ProjectStyle>
   );
