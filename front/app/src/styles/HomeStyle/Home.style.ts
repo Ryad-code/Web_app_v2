@@ -12,13 +12,13 @@ export const SubHomeContainerStyle = styled.div`
   flex-direction: column;
   align-items: left;
   justify-content: top;
-  font-family: "roboto";
-  font-weight: bold;
+  //font-family: "roboto";
+  //font-weight: bold;
 `;
 
 export const HomeTitleStyle = styled.div`
-  font-family: "roboto";
-  font-weight: bolder;
+  //font-family: "roboto";
+  //font-weight: bolder;
   font-size: 2vw;
   margin-top: 6%;
 `;
@@ -28,15 +28,15 @@ export const HomeSubTitleStyle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: left;
-  font-family: "roboto";
-  font-weight: bold;
+  //font-family: "roboto";
+  //font-weight: bold;
   font-size: 1.7vw;
 `;
 
 export const HomeTextStyle = styled.div`
   width: 60%;
-  font-family: "roboto";
-  font-weight: lighter;
+  //font-family: "roboto";
+  //font-weight: lighter;
   font-size: 1.4vw;
 `;
 

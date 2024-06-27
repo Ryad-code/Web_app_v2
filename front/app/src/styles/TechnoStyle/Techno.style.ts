@@ -18,9 +18,10 @@ export const TechnoTitleStyle = styled.div`
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  font-family: "roboto";
+  font-family: "Roboto1";
   font-weight: bolder;
-  font-size: 1.5vw;
+  font-size: 2vw;
+  color: purple;
 `;
 
 export const BarStyle = styled.div`

@@ -1,4 +1,3 @@
-import App from "./App.tsx";
 import ReactDOM from "react-dom/client";
 import {
   createRoutesFromElements,
@@ -8,6 +7,7 @@ import {
   Outlet,
   Link,
 } from "react-router-dom";
+import App from "./App.tsx";
 import NavBar from "./components/NavBar.tsx";
 
 const Root = () => {

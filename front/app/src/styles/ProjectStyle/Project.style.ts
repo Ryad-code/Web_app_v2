@@ -10,11 +10,12 @@ export const ProjectRowStyle = styled.div`
   flex-direction: row;
   align-items: center;
   margin: 2%;
+  margin-top: 6%;
 `;
 
 export const ProjectStyle = styled.div`
   width: 50%;
-  height: 100%;
+  height: 120%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,10 +23,13 @@ export const ProjectStyle = styled.div`
   background-color: transparent;
   &:hover {
     background-color: #af5a76;
+    width: 60%;
+    height: 120%;
   }
   margin: 4%;
   border-radius: 4%;
-  border: 4mm ridge white;
+  border: 2mm solid white;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
 `;
 
 export const ProjectImageStyle = styled.div`

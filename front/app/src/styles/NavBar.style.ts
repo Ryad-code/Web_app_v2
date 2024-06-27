@@ -10,10 +10,11 @@ export const NavBarStyle = styled.div`
   justify-content: center;
   background-color: transparent;
   color: white;
-  font-family: "roboto";
-  font-weight: bold;
+  //font-family: "roboto";
+  //font-weight: bold;
   &:hover {
-    background-color: #af5a76;
+    background-color: white;
+    color: blue;
   }
 `;
 
