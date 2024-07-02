@@ -49,6 +49,6 @@ export const ButtonStyle = styled.button`
   padding: 2%;
   font-size: 1vw;
   &:hover {
-    background-color: #af5a76;
+    background-color: blue;
   }
 `;

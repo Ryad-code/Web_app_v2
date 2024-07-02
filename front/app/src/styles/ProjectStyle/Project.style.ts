@@ -22,13 +22,13 @@ export const ProjectStyle = styled.div`
   justify-content: top;
   background-color: transparent;
   &:hover {
-    background-color: #af5a76;
     width: 60%;
     height: 120%;
+    border: 2mm solid white;
   }
   margin: 4%;
   border-radius: 4%;
-  border: 2mm solid white;
+  border: 1mm solid white;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
 `;
 
