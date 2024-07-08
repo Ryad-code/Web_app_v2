@@ -36,7 +36,7 @@ export const SubTitleStyle = styled.div`
   flex-direction: row;
   align-items: space-between;
   justify-content: space-between;
-  font-size: max(10px, 1.4vw);
+  font-size: max(10px, 1.2vw);
   font-weight: bold;
   margin-top: 4%;
   margin-bottom: 2%;

@@ -6,7 +6,7 @@ function SubProjectContainer() {
   return (
     <SubContainerStyle>
       <HomeSubTitleStyle>
-        <h2>Projects</h2>
+        <h1>Projects</h1>
       </HomeSubTitleStyle>
       <ProjectRow id={0} />
       <ProjectRow id={2} />

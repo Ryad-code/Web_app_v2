@@ -5,7 +5,7 @@ import { MainContainerStyle, MainStyle } from "./styles/Container.style";
 import PresentationContainer from "./components/PresentationPage/PresentationContainer";
 import TechnoContainer from "./components/TechnoPage/TechnoContainer";
 import NavBar from "./components/NavBar";
-import LanguageContainer from "./components/LanguagePage/Language";
+import LanguageContainer from "./components/LanguagePage/LanguageContainer";
 
 function App() {
   return (

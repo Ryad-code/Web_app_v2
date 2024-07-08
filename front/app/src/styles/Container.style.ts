@@ -10,8 +10,7 @@ export const MainStyle = styled.div`
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: "Roboto";
-  color: purple;
+  //  font-family: "Roboto";
 `;
 
 export const MainContainerStyle = styled.div`
