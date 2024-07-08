@@ -48,7 +48,20 @@ export const ButtonStyle = styled.button`
   padding: 2%;
   font-size: 1vw;
   &:hover {
-    font-size: 2vh;
     width: 30%;
   }
+  cursor: pointer;
+`;
+export const ButtonStyle1 = styled.button`
+  background: linear-gradient(90deg, #13adc7 0%, #6978d1 66%, #945dd6 100%);
+  border-radius: 30px;
+  border: none;
+  color: white;
+  margin: 2%;
+  padding: 4%;
+  font-size: 1vw;
+  &:hover {
+    width: 30%;
+  }
+  cursor: pointer;
 `;

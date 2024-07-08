@@ -15,7 +15,7 @@ export const ProjectRowStyle = styled.div`
 
 export const ProjectStyle = styled.div`
   width: 50%;
-  height: 120%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,10 +26,12 @@ export const ProjectStyle = styled.div`
     height: 120%;
     border: 2mm solid white;
   }
+  transition: 500ms;
   margin: 4%;
   border-radius: 4%;
   border: 1mm solid white;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  overflow: hidden;
 `;
 
 export const ProjectTitleStyle = styled.div`
