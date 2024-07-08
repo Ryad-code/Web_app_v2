@@ -5,11 +5,10 @@ import styled from "styled-components";
 
 export const TechnoStyle = styled.div`
   width: 70%;
-  height: 100vh;
+  //height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  //background-color: purple;
   margin-top: 4%;
 `;
 
@@ -20,7 +19,6 @@ export const SubTechnoStyle = styled.div`
   flex-direction: column;
   align-items: left;
   justify-content: top;
-  //background-color: blue;
 `;
 
 export const TechnoTitleStyle = styled.h1`
@@ -29,7 +27,6 @@ export const TechnoTitleStyle = styled.h1`
   font-weight: bolder;
   font-size: 2vw;
   color: white;
-  //background-color: red;
   margin-bottom: 2%;
 `;
 
@@ -39,7 +36,7 @@ export const SubTitleStyle = styled.div`
   flex-direction: row;
   align-items: space-between;
   justify-content: space-between;
-  font-size: 2.5vh;
+  font-size: max(10px, 1.4vw);
   font-weight: bold;
   margin-top: 4%;
   margin-bottom: 2%;

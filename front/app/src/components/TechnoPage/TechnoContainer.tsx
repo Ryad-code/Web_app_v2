@@ -9,19 +9,20 @@ let Subjects: string[] = [
   "C & C++",
   "HTML & CSS",
   "Docker & Git",
-  "JavaScript & TypeScript",
   "React",
+  "JavaScript & TypeScript",
   "Ui Design",
 ];
 
-function SubTechnoContainer() {
+export function SubTechnoContainer() {
   return (
     <SubTechnoStyle>
       <Bar Sub={Subjects[0]} res={95} />
       <Bar Sub={Subjects[1]} res={80} />
       <Bar Sub={Subjects[2]} res={80} />
       <Bar Sub={Subjects[3]} res={75} />
-      <Bar Sub={Subjects[4]} res={60} />
+      <Bar Sub={Subjects[4]} res={75} />
+      <Bar Sub={Subjects[5]} res={60} />
     </SubTechnoStyle>
   );
 }
@@ -30,7 +31,7 @@ function TechnoContainer() {
   return (
     <TechnoStyle>
       <TechnoTitleStyle>
-        <h2>Technologies</h2>
+        <h1>Technologies</h1>
       </TechnoTitleStyle>
       <SubTechnoContainer />
     </TechnoStyle>

@@ -24,6 +24,15 @@ export const MainContainerStyle = styled.div`
   color: white;
 `;
 
+export const LastContainerStyle = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+`;
+
 export const SubContainerStyle = styled.div`
   width: 70%;
   height: 100%;

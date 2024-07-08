@@ -8,11 +8,16 @@ function SubBar({ res }: { res: number }) {
   return <SubBarStyle $value={res}>.</SubBarStyle>;
 }
 
-function SubTitle({ Sub }: { Sub: string }) {
+function Barlvl(res: number) {
+  if (res > 79) return "Advanced";
+  else return "Medium";
+}
+
+function SubTitle({ Sub, res }: { Sub: string; res: number }) {
   return (
     <SubTitleStyle>
       <div>{Sub}</div>
-      <div>Medium</div>
+      <div>{Barlvl(res)}</div>
     </SubTitleStyle>
   );
 }
@@ -20,7 +25,7 @@ function SubTitle({ Sub }: { Sub: string }) {
 function Bar({ Sub, res }: { Sub: string; res: number }) {
   return (
     <>
-      <SubTitle Sub={Sub} />
+      <SubTitle res={res} Sub={Sub} />
       <BarStyle>
         <SubBar res={res} />
       </BarStyle>

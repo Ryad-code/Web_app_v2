@@ -1,9 +1,11 @@
 import ProjectContainer from "./components/ProjectPage/ProjectContainer";
 import HomeContainer from "./components/HomePage/HomeContainer";
+import { LastContainerStyle } from "./styles/Container.style";
 import { MainContainerStyle, MainStyle } from "./styles/Container.style";
 import PresentationContainer from "./components/PresentationPage/PresentationContainer";
 import TechnoContainer from "./components/TechnoPage/TechnoContainer";
 import NavBar from "./components/NavBar";
+import LanguageContainer from "./components/LanguagePage/Language";
 
 function App() {
   return (
@@ -18,9 +20,12 @@ function App() {
       <MainContainerStyle id="MainContainer2">
         <ProjectContainer />
       </MainContainerStyle>
-      <MainContainerStyle id="MainContainer3">
+      <LastContainerStyle id="MainContainer3">
         <TechnoContainer />
-      </MainContainerStyle>
+      </LastContainerStyle>
+      <LastContainerStyle id="MainContainer4">
+        <LanguageContainer />
+      </LastContainerStyle>
     </MainStyle>
   );
 }
