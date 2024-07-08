@@ -6,6 +6,11 @@ import {
   NavBarStyle,
 } from "../styles/NavBar.style";
 
+function Scroll(dest: string) {
+  const element = document.getElementById(dest);
+  if (element) element.scrollIntoView();
+}
+
 function NavBarItem() {
   return (
     <>
@@ -13,9 +18,11 @@ function NavBarItem() {
         <ItemStyle>Ryad Laouedj</ItemStyle>
       </NavBarItemStyle>
       <NavBarItemStyle1>
-        <ItemStyle>About</ItemStyle>
-        <ItemStyle>Project</ItemStyle>
-        <ItemStyle>Technologies</ItemStyle>
+        <ItemStyle onClick={() => Scroll("MainContainer1")}>About me</ItemStyle>
+        <ItemStyle onClick={() => Scroll("MainContainer2")}>Projects</ItemStyle>
+        <ItemStyle onClick={() => Scroll("MainContainer3")}>
+          Technologies
+        </ItemStyle>
       </NavBarItemStyle1>
     </>
   );

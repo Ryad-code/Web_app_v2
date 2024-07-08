@@ -13,8 +13,7 @@ export const NavBarStyle = styled.div`
   //font-family: "roboto";
   //font-weight: bold;
   &:hover {
-    background-color: white;
-    color: blue;
+    background-color: skyblue;
   }
 `;
 
@@ -42,7 +41,11 @@ export const NavBarItemStyle1 = styled.div`
   justify-content: right;
 `;
 
-export const ItemStyle = styled.div`
+export const ItemStyle = styled.button`
   margin: 3%;
   font-weight: bolder;
+  font-size: 1.8vh;
+  border: none;
+  background-color: transparent;
+  color: white;
 `;

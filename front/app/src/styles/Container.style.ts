@@ -5,7 +5,8 @@ import "../fonts/roboto/Roboto-BlackItalic.ttf";
 
 export const MainStyle = styled.div`
   width: 100%;
-  background-image: url("../../../public/images/bg3.jpg");
+  //background-image: url("../../../public/images/bg3.jpg");
+  background-color: #0f1624;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

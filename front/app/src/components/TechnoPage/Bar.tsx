@@ -4,8 +4,8 @@ import {
   SubTitleStyle,
 } from "../../styles/TechnoStyle/Techno.style";
 
-function SubBar() {
-  return <SubBarStyle>.</SubBarStyle>;
+function SubBar({ res }: { res: number }) {
+  return <SubBarStyle $value={res}>.</SubBarStyle>;
 }
 
 function SubTitle({ Sub }: { Sub: string }) {
@@ -17,12 +17,12 @@ function SubTitle({ Sub }: { Sub: string }) {
   );
 }
 
-function Bar({ Sub }: { Sub: string }) {
+function Bar({ Sub, res }: { Sub: string; res: number }) {
   return (
     <>
       <SubTitle Sub={Sub} />
       <BarStyle>
-        <SubBar />
+        <SubBar res={res} />
       </BarStyle>
     </>
   );

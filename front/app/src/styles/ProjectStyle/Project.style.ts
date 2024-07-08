@@ -32,15 +32,6 @@ export const ProjectStyle = styled.div`
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
 `;
 
-export const ProjectImageStyle = styled.div`
-  width: 100%;
-  height: 50%;
-  background-image: url("../../../public/images/fract-ol_img.png");
-  background-position: center;
-  background-size: cover;
-  //background-repeat: no-repeat;
-`;
-
 export const ProjectTitleStyle = styled.div`
   height: 15%;
   display: flex;
@@ -66,4 +57,16 @@ export const ProjectButtonStyle = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+`;
+
+export const ProjectImageStyle = styled.div.attrs<{ $url?: string }>(
+  (props) => ({
+    $url: props.$url || "",
+  })
+)`
+  width: 100%;
+  height: 50%;
+  background-image: url(${(props) => props.$url});
+  background-position: center;
+  background-size: cover;
 `;

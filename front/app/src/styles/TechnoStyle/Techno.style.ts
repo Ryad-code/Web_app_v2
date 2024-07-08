@@ -50,16 +50,16 @@ export const BarStyle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: left;
-  background-color: transparent;
+  background-color: #162950;
   border-radius: 30px;
-  border: 3px solid white;
-  background-color: transparent;
   margin-bottom: 3%;
 `;
 
-export const SubBarStyle = styled.div`
-  width: 75%;
+export const SubBarStyle = styled.div.attrs<{ $value?: number }>((props) => ({
+  $value: props.$value || 0,
+}))`
+  width: ${(props) => props.$value}%;
   height: 100%;
-  background: linear-gradient(0.25turn, blue, purple);
+  background: linear-gradient(90deg, #13adc7 0%, #6978d1 66%, #945dd6 100%);
   border-radius: 30px;
 `;

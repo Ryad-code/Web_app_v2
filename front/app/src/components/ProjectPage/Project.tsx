@@ -18,7 +18,7 @@ function Project({
 }) {
   return (
     <ProjectStyle>
-      <ProjectImageStyle />
+      <ProjectImageStyle $url={Img} />
       <ProjectTitleStyle>{Title}</ProjectTitleStyle>
       <ProjectInfoStyle>{Text}</ProjectInfoStyle>
       <ProjectButtonStyle>

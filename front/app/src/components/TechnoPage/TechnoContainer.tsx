@@ -7,6 +7,7 @@ import Bar from "./Bar";
 
 let Subjects: string[] = [
   "C & C++",
+  "HTML & CSS",
   "Docker & Git",
   "JavaScript & TypeScript",
   "React",
@@ -16,10 +17,11 @@ let Subjects: string[] = [
 function SubTechnoContainer() {
   return (
     <SubTechnoStyle>
-      <Bar Sub={Subjects[0]} />
-      <Bar Sub={Subjects[1]} />
-      <Bar Sub={Subjects[2]} />
-      <Bar Sub={Subjects[3]} />
+      <Bar Sub={Subjects[0]} res={95} />
+      <Bar Sub={Subjects[1]} res={80} />
+      <Bar Sub={Subjects[2]} res={80} />
+      <Bar Sub={Subjects[3]} res={75} />
+      <Bar Sub={Subjects[4]} res={60} />
     </SubTechnoStyle>
   );
 }

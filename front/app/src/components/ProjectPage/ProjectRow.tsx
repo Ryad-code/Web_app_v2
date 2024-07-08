@@ -2,15 +2,15 @@ import { ProjectRowStyle } from "../../styles/ProjectStyle/Project.style";
 import Project from "./Project";
 
 let Images: string[] = [
-  "trans_img.png",
-  "IRC_img.png",
-  "cub3d_img.png",
-  "fract-ol.png",
+  "../../../public/images/trans_img.png",
+  "../../../public/images/IRC_img.png",
+  "../../../public/images/cub3d_img.png",
+  "../../../public/images/fract-ol_img.png",
 ];
 let Titles: string[] = ["Transcendance", "IRC Server", "Cub3D", "Fract-ol"];
 let Infos: string[] = [
   "Transcendance is a  Single Page Application project  revolving between Back & Frontend",
-  "IRC consist in creating an IRC server handling new connections and messages between users",
+  "IRC consists in creating an IRC server handling new connections and messages between users",
   "Cub3D is a replica of Wolfenstein 3D one of the firsts FPS game, it uses Ray-casting technologie",
   "Fracto-ol is a graphical interpretation of Complex numbers properties",
 ];

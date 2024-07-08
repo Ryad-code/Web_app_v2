@@ -3,8 +3,6 @@ import "../../fonts/index.css";
 import "../../fonts/roboto/Roboto-Regular.ttf";
 import "../../fonts/roboto/Roboto-BlackItalic.ttf";
 
-//import Img from "../../../public/images/fract-ol_img.png";
-
 export const SubHomeContainerStyle = styled.div`
   width: 70%;
   height: 100vh;
@@ -41,14 +39,16 @@ export const HomeTextStyle = styled.div`
 `;
 
 export const ButtonStyle = styled.button`
-  background: transparent;
-  border-radius: 3px;
-  border: 2px solid white;
+  width: 25%;
+  background: linear-gradient(90deg, #13adc7 0%, #6978d1 66%, #945dd6 100%);
+  border-radius: 30px;
+  border: none;
   color: white;
   margin: 2%;
   padding: 2%;
   font-size: 1vw;
   &:hover {
-    background-color: blue;
+    font-size: 2vh;
+    width: 30%;
   }
 `;
