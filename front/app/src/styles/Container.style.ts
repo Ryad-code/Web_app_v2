@@ -1,7 +1,5 @@
 import styled from "styled-components";
 import "../fonts/index.css";
-import "../fonts/roboto/Roboto-Regular.ttf";
-import "../fonts/roboto/Roboto-BlackItalic.ttf";
 
 export const MainStyle = styled.div`
   width: 100%;

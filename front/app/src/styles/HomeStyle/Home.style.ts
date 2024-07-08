@@ -1,7 +1,5 @@
 import styled from "styled-components";
 import "../../fonts/index.css";
-import "../../fonts/roboto/Roboto-Regular.ttf";
-import "../../fonts/roboto/Roboto-BlackItalic.ttf";
 
 export const SubHomeContainerStyle = styled.div`
   width: 70%;
@@ -10,13 +8,11 @@ export const SubHomeContainerStyle = styled.div`
   flex-direction: column;
   align-items: left;
   justify-content: top;
-  //font-family: "roboto";
-  //font-weight: bold;
+  //font-weight: normal;
+  //font-style: normal;
 `;
 
 export const HomeTitleStyle = styled.div`
-  //font-family: "roboto";
-  //font-weight: bolder;
   font-size: 2vw;
   margin-top: 6%;
 `;
@@ -26,15 +22,11 @@ export const HomeSubTitleStyle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: left;
-  //font-family: "roboto";
-  //font-weight: bold;
   font-size: 1.7vw;
 `;
 
 export const HomeTextStyle = styled.div`
   width: 60%;
-  //font-family: "roboto";
-  //font-weight: lighter;
   font-size: 1.4vw;
 `;
 
