@@ -8,41 +8,48 @@ export const SubHomeContainerStyle = styled.div`
   flex-direction: column;
   align-items: left;
   justify-content: top;
-  //font-weight: normal;
-  //font-style: normal;
+  @media screen and (max-width: 1024px) {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const HomeTitleStyle = styled.div`
-  font-size: 2vw;
-  margin-top: 6%;
+  font-size: max(30px, 1.6vw);
+  margin-top: 10%;
+  @media screen and (max-width: 1024px) {
+    margin-top: -10%;
+    margin-bottom: 2%;
+  }
 `;
 
 export const HomeSubTitleStyle = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  font-size: 1.7vw;
+  font-size: max(20px, 1.4vw);
 `;
 
 export const HomeTextStyle = styled.div`
   width: 60%;
-  font-size: 1.4vw;
+  font-size: max(20px, 1.2vw);
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    margin-bottom: 5%;
+  }
 `;
 
 export const ButtonStyle = styled.button`
-  width: 25%;
+  width: max(16%, 10em);
   background: linear-gradient(90deg, #13adc7 0%, #6978d1 66%, #945dd6 100%);
   border-radius: 30px;
   border: none;
   color: white;
-  margin: 2%;
-  padding: 2%;
-  font-size: 1vw;
-  &:hover {
-    width: 30%;
-  }
+  padding: 10px;
+  font-size: max(20px, 1vw);
   cursor: pointer;
+  @media screen and (max-width: 1024px) {
+    width: 40%;
+    padding: 2%;
+  }
 `;
 export const ButtonStyle1 = styled.button`
   background: linear-gradient(90deg, #13adc7 0%, #6978d1 66%, #945dd6 100%);

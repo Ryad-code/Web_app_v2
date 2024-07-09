@@ -22,8 +22,8 @@ function SubHomeContainer() {
           to create intuitive interfaces for user through a Logic & Organisation
           based code.
         </p>
-        <ButtonStyle>See more</ButtonStyle>
       </HomeTextStyle>
+      <ButtonStyle>See more</ButtonStyle>
     </SubHomeContainerStyle>
   );
 }
