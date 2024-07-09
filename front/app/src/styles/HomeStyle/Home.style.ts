@@ -31,7 +31,7 @@ export const HomeTextStyle = styled.div`
   width: 60%;
   font-size: max(20px, 1.2vw);
   @media screen and (max-width: 1024px) {
-    //width: 100%;
+    width: 100%;
     margin-bottom: 5%;
   }
 `;

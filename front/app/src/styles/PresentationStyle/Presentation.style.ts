@@ -12,11 +12,15 @@ export const SubPresentationStyle = styled.div`
   flex-direction: column;
   align-items: left;
   justify-content: top;
+  @media screen and (max-width: 1024px) {
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const PresentationTitleStyle = styled.div`
   font-weight: bolder;
-  font-size: 2vw;
+  font-size: max(30px, 1.6vw);
 `;
 
 export const PresentationSubTitleStyle = styled.div`
@@ -24,7 +28,11 @@ export const PresentationSubTitleStyle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: left;
-  font-size: 1.7vw;
+  font-size: max(20px, 1.4vw);
+  @media screen and (max-width: 1024px) {
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const TextContainerStyle = styled.div`
@@ -33,13 +41,21 @@ export const TextContainerStyle = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+  }
 `;
 
 export const PresentationTextStyle = styled.div`
   width: 60%;
-  font-family: "roboto";
   font-weight: lighter;
-  font-size: 1.4vw;
+  font-size: max(20px, 1.4vw);
+  @media screen and (max-width: 1024px) {
+    height: 50%;
+  }
 `;
 
 export const PresentationImgStyle = styled.div`
@@ -49,4 +65,7 @@ export const PresentationImgStyle = styled.div`
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  @media screen and (max-width: 1024px) {
+    height: 50%;
+  }
 `;
