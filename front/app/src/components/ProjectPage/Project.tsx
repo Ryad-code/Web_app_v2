@@ -7,6 +7,14 @@ import {
 } from "../../styles/ProjectStyle/Project.style";
 import { ButtonStyle1 } from "../../styles/ProjectStyle/Project.style";
 
+/*const Button = ({ onClick, children }) => {
+  return (
+    <button onClick={onClick} className="button">
+      {children}
+    </button>
+  );
+}; */
+
 function Project({
   Title,
   Text,
@@ -22,7 +30,9 @@ function Project({
       <ProjectTitleStyle>{Title}</ProjectTitleStyle>
       <ProjectInfoStyle>{Text}</ProjectInfoStyle>
       <ProjectButtonStyle>
-        <ButtonStyle1>See more</ButtonStyle1>
+        <ButtonStyle1 as="a" href="https://github.com/Ryad-code/Cub3d">
+          See more
+        </ButtonStyle1>
       </ProjectButtonStyle>
     </ProjectStyle>
   );

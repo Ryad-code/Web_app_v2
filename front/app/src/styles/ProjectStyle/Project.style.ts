@@ -105,7 +105,7 @@ export const ProjectImageStyle = styled.div.attrs<{ $url?: string }>(
   background-size: cover;
 `;
 
-export const ButtonStyle1 = styled.button`
+export const ButtonStyle1 = styled.a`
   background: linear-gradient(90deg, #13adc7 0%, #6978d1 66%, #945dd6 100%);
   border-radius: 30px;
   border: none;
