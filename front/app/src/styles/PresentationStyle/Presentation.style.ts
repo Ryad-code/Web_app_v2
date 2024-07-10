@@ -44,8 +44,8 @@ export const TextContainerStyle = styled.div`
   @media screen and (max-width: 1024px) {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 50%;
+    justify-content: space-between;
+    height: 70%;
   }
 `;
 
@@ -66,6 +66,6 @@ export const PresentationImgStyle = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   @media screen and (max-width: 1024px) {
-    height: 50%;
+    //height: 30%;
   }
 `;
