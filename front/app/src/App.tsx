@@ -17,9 +17,9 @@ function App() {
       <MainContainerStyle id="MainContainer1">
         <PresentationContainer />
       </MainContainerStyle>
-      <MainContainerStyle id="MainContainer2">
+      <LastContainerStyle id="MainContainer2">
         <ProjectContainer />
-      </MainContainerStyle>
+      </LastContainerStyle>
       <LastContainerStyle id="MainContainer3">
         <TechnoContainer />
       </LastContainerStyle>

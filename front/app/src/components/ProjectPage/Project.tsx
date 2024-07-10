@@ -5,7 +5,7 @@ import {
   ProjectStyle,
   ProjectTitleStyle,
 } from "../../styles/ProjectStyle/Project.style";
-import { ButtonStyle1 } from "../../styles/HomeStyle/Home.style";
+import { ButtonStyle1 } from "../../styles/ProjectStyle/Project.style";
 
 function Project({
   Title,

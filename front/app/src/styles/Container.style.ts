@@ -24,12 +24,3 @@ export const LastContainerStyle = styled.div`
   justify-content: center;
   color: white;
 `;
-
-export const SubContainerStyle = styled.div`
-  width: 70%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;

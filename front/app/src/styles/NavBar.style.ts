@@ -10,10 +10,10 @@ export const NavBarStyle = styled.div`
   justify-content: center;
   background-color: transparent;
   color: white;
-  //font-family: "roboto";
-  //font-weight: bold;
-  &:hover {
-    background-color: skyblue;
+  @media screen and (min-width: 1024px) {
+    &:hover {
+      background: linear-gradient(90deg, #13adc7 0%, #6978d1 66%, #945dd6 100%);
+    }
   }
 `;
 
@@ -34,7 +34,7 @@ export const NavBarItemStyle = styled.div`
 `;
 
 export const NavBarItemStyle1 = styled.div`
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -48,4 +48,7 @@ export const ItemStyle = styled.button`
   border: none;
   background-color: transparent;
   color: white;
+  @media screen and (max-width: 1024px) {
+    margin: 0px;
+  }
 `;
