@@ -4,6 +4,7 @@ import {
   ItemStyle,
   TopFooter,
   IconStyle,
+  Icon,
 } from "../styles/Container.style";
 
 import image0 from "../../public/images/github.png";
@@ -29,9 +30,9 @@ function Footer() {
           <div> ryad.laouedj@gmail.com</div>
         </ItemStyle>
         <IconStyle>
-          <div>{Image(0)}</div>
-          <div>{Image(1)}</div>
-          <div>{Image(1)}</div>
+          <Icon src={image0} />
+          <Icon src={image1} />
+          <Icon src={image1} />
         </IconStyle>
       </BotFooter>
     </FooterStyle>

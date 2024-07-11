@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import "../fonts/index.css";
+import image1 from "../../public/images/figma_icon.png";
 
 export const MainStyle = styled.div`
   width: 100%;
@@ -33,6 +34,9 @@ export const FooterStyle = styled.div`
   margin-top: 10%;
   font-size: max(15px, 1vw);
   font-weight: bold;
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
 `;
 
 export const TopFooter = styled.div`
@@ -69,4 +73,9 @@ export const IconStyle = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+`;
+
+export const Icon = styled.img`
+  max-width: 11%;
+  height: auto;
 `;
