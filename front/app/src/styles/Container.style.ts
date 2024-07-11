@@ -30,7 +30,6 @@ export const FooterStyle = styled.div`
   height: 40vh;
   display: flex;
   flex-direction: column;
-  background-color: green;
   margin-top: 10%;
   font-size: max(15px, 1vw);
   font-weight: bold;
@@ -43,7 +42,6 @@ export const TopFooter = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background-color: purple;
   font-size: max(15px, 1vw);
 `;
 
@@ -53,7 +51,6 @@ export const BotFooter = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: pink;
 `;
 
 export const ItemStyle = styled.div`
@@ -63,7 +60,6 @@ export const ItemStyle = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  border: solid white;
 `;
 
 export const IconStyle = styled.div`
@@ -73,5 +69,4 @@ export const IconStyle = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background-color: red;
 `;
