@@ -5,6 +5,7 @@ import { MainContainerStyle, MainStyle } from "./styles/Container.style";
 import PresentationContainer from "./components/PresentationPage/PresentationContainer";
 import TechnoContainer from "./components/TechnoPage/TechnoContainer";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import LanguageContainer from "./components/LanguagePage/LanguageContainer";
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
       </LastContainerStyle>
       <LastContainerStyle id="MainContainer4">
         <LanguageContainer />
+      </LastContainerStyle>
+      <LastContainerStyle>
+        <Footer />
       </LastContainerStyle>
     </MainStyle>
   );

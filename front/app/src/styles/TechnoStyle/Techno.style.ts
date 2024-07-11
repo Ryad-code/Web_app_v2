@@ -1,6 +1,3 @@
-import "../../fonts/index.css";
-import "../../fonts/roboto/Roboto-Regular.ttf";
-import "../../fonts/roboto/Roboto-BlackItalic.ttf";
 import styled from "styled-components";
 
 export const TechnoStyle = styled.div`
@@ -22,12 +19,15 @@ export const SubTechnoStyle = styled.div`
 `;
 
 export const TechnoTitleStyle = styled.h1`
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  font-family: "roboto";
-  font-weight: bolder;
-  font-size: 2vw;
-  color: white;
+  font-size: max(30px, 1.6vw);
+  margin-top: 20%;
   margin-bottom: 2%;
+  @media screen and (max-width: 1024px) {
+    align-items: center;
+  }
 `;
 
 export const SubTitleStyle = styled.div`
@@ -36,7 +36,7 @@ export const SubTitleStyle = styled.div`
   flex-direction: row;
   align-items: space-between;
   justify-content: space-between;
-  font-size: max(10px, 1.2vw);
+  font-size: max(15px, 1vw);
   font-weight: bold;
   margin-top: 4%;
   margin-bottom: 2%;
