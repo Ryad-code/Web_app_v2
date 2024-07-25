@@ -1,35 +1,18 @@
-import ProjectContainer from "./components/ProjectPage/ProjectContainer";
-import HomeContainer from "./components/HomePage/HomeContainer";
-import { LastContainerStyle } from "./styles/Container.style";
-import { MainContainerStyle, MainStyle } from "./styles/Container.style";
-import PresentationContainer from "./components/PresentationPage/PresentationContainer";
-import TechnoContainer from "./components/TechnoPage/TechnoContainer";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import LanguageContainer from "./components/LanguagePage/LanguageContainer";
+import { MainStyle } from "./styles/Main.style";
+import NavBar from "./components/NavBar/NavBar";
+import Home from "./components/HomePage/Home";
+import Project from "./components/ProjectPage/Project";
+import Language from "./components/LanguagePage/Language";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <MainStyle>
       <NavBar />
-      <MainContainerStyle id="MainContainer">
-        <HomeContainer />
-      </MainContainerStyle>
-      <MainContainerStyle id="MainContainer1">
-        <PresentationContainer />
-      </MainContainerStyle>
-      <LastContainerStyle id="MainContainer2">
-        <ProjectContainer />
-      </LastContainerStyle>
-      <LastContainerStyle id="MainContainer3">
-        <TechnoContainer />
-      </LastContainerStyle>
-      <LastContainerStyle id="MainContainer4">
-        <LanguageContainer />
-      </LastContainerStyle>
-      <LastContainerStyle>
-        <Footer />
-      </LastContainerStyle>
+      <Home />
+      <Project />
+      <Language />
+      <Footer />
     </MainStyle>
   );
 }
