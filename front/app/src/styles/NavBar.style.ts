@@ -51,4 +51,7 @@ export const ItemStyle = styled.button`
   @media screen and (max-width: 1024px) {
     margin: 0px;
   }
+  &:hover {
+    cursor: pointer;
+  }
 `;
