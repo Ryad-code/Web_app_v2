@@ -5,6 +5,7 @@ import {
   PresentationTextStyle,
   TextContainerStyle,
   PresentationImgStyle,
+  Section1Style,
 } from "../../styles/PresentationStyle/Presentation.style";
 
 function PresentationInfo() {
@@ -20,7 +21,6 @@ function PresentationInfo() {
           revolving between Development and Design
         </p>
       </PresentationTextStyle>
-      <PresentationImgStyle />
     </TextContainerStyle>
   );
 }
@@ -28,13 +28,16 @@ function PresentationInfo() {
 function SubPresentationContainer() {
   return (
     <SubPresentationStyle>
-      <PresentationTitleStyle>
-        <h1>About Me</h1>
-      </PresentationTitleStyle>
-      <PresentationSubTitleStyle>
-        <h2>My journey with code</h2>
-      </PresentationSubTitleStyle>
-      <PresentationInfo />
+      <Section1Style>
+        <PresentationTitleStyle>
+          <h1>About Me</h1>
+        </PresentationTitleStyle>
+        <PresentationSubTitleStyle>
+          <h2>My journey with code</h2>
+        </PresentationSubTitleStyle>
+        <PresentationInfo />
+      </Section1Style>
+      <PresentationImgStyle />
     </SubPresentationStyle>
   );
 }

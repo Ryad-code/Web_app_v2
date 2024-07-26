@@ -10,7 +10,6 @@ export const SubContainerStyle = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  //background-color: purple;
 `;
 
 export const ProjectRowStyle = styled.div`
@@ -26,7 +25,6 @@ export const ProjectRowStyle = styled.div`
     width: 100%;
     margin-top: 2%;
   }
-  //background-color: orange;
 `;
 
 export const ProjectStyle = styled.div`
@@ -37,7 +35,6 @@ export const ProjectStyle = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  //background-color: blue;
   &:hover {
     width: 60%;
     height: 120%;
@@ -55,7 +52,6 @@ export const ProjectSubTitleStyle = styled.div`
   width: 100%;
   display: flex;
   font-size: max(30px, 1.6vw);
-  margin-top: 10%;
   @media screen and (max-width: 1024px) {
     margin-top: -10%;
     margin-bottom: 2%;

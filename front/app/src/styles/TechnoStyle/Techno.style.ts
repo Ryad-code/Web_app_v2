@@ -23,7 +23,6 @@ export const TechnoTitleStyle = styled.h1`
   flex-direction: column;
   width: 100%;
   font-size: max(30px, 1.6vw);
-  margin-top: 20%;
   margin-bottom: 2%;
   @media screen and (max-width: 1024px) {
     align-items: center;
